@@ -19,11 +19,15 @@ return {
         h = { "c_formatter_42" },
         cpp = { "c_formatter_42" },
         hpp = { "c_formatter_42" },
+        python = { "black" },
       },
       formatters = {
         c_formatter_42 = {
           command = "c_formatter_42",
           stdin = true,
+        },
+        black = {
+          prepend_args = { "--line-length", "79" },
         },
       },
     },
