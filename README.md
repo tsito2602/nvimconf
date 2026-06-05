@@ -1,6 +1,7 @@
 # Neovim 設定
 
 LazyVim ベースの Neovim 設定
+
 macOS と Ubuntu で同じ設定を使うために、`.config/nvim` をこのリポジトリで管理する
 
 ## 必要なもの
